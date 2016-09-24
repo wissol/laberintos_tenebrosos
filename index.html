@@ -1,0 +1,1287 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Laberintos tenebrosos by wissol</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>Laberintos tenebrosos</h1>
+          <h2>Juego rol retro-clónico y minimalista, basado en el juego de rol de fantasía más conocido</h2>
+        </header>
+
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/wissol/laberintos_tenebrosos/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/wissol/laberintos_tenebrosos/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/wissol/laberintos_tenebrosos" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
+          <p>“Laberintos Tenebrosos” es un juego de rol tradicional que se inspira en
+las versiones más clásicas y queridas del juego de rol de fantasía más
+popular de todos los tiempos, pero simplificando las reglas todo lo
+posible sin sacrificar nada esencial.</p>
+
+<p>En este juego los personajes solo pueden llegar hasta nivel 6, pero eso
+es suficiente para varios meses de aventuras.</p>
+
+<p>2</p>
+
+<p><img src="sceata.png" alt="image"></p>
+
+<h1>
+<a id="la-regla-principal" class="anchor" href="#la-regla-principal" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>La regla principal</h1>
+
+<p>El máster cuenta una aventura a los demás jugadores. Cada uno de estos
+jugadores lleva a uno de los protagonistas de la aventura, los
+personajes-jugadores. Los personajes-jugadores pueden, —dentro de lo que
+permitan las reglas—, <em>intentar</em> cualquier cosa que deseen.</p>
+
+<p>El máster determina cuáles han sido las consecuencias de esas acciones y
+describe que pasa a continuación. Y así sucesivamente hasta que todos
+los personajes mueren o, por las razones que sean, los jugadores
+consideran que la aventura está terminada.</p>
+
+<blockquote>
+<p>Os adentráis en el bosque, cuando, entre las sombras, descubrís el
+brillo de una espada. ¿Qué hacéis?</p>
+
+<p>—¡Atacamos!</p>
+
+<p>—!No!, salgamos de aquí.</p>
+
+<p>—Prendamos fuego al bosque.</p>
+
+<p>—Intento descubrir quiénes son.</p>
+
+<p>—¿Por qué no hablamos con ellos?</p>
+</blockquote>
+
+<p>Esto es todo el juego de rol y el resto, comentarios.</p>
+
+<h1>
+<a id="dados" class="anchor" href="#dados" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Dados</h1>
+
+<p>Los dados de este juego son $d20$, $d12$, $d10$, $d8$, $d6$ y $d4$. Se
+llaman así por el número de caras que tienen. El dado <em>normal</em> es el
+$  d6$, de 6 caras de toda la vida.</p>
+
+<p>También hablamos de dos dados que no existen en la realidad: el $d2$ y
+el $d3$. Para simular un $d2$ lanza un dado normal, los impares son 1,
+los pares un 2. Para el $d3$ lanza un $d6$, 1-2 es 1, 3-4 es 2 y 5-6 es
+3.</p>
+
+<h1>
+<a id="atributos" class="anchor" href="#atributos" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Atributos</h1>
+
+<p>Los personajes de este juego cuentan con los siguientes atributos:
+Fuerza (FUE), Destreza (DES), Constitución (CON), Inteligencia (INT),
+Sabiduría (SAB) y Carisma (CAR).</p>
+
+<p>Lanza $3d6$ (3 dados de 6 caras) para cada uno de los atributos, por su
+orden. Anota esos valores en la hoja de personaje y también el
+modificador, según el cuadro de modificadores, en la página .</p>
+
+<p>El modificador de atributos se usa para tres cosas: Modificar la tirada
+de Ataque, el daño que causan las armas, tu clase de armadura y los
+puntos de vida, como se explica más adelante.</p>
+
+<p>[p] [c~m~ods~a~tributos]</p>
+
+<p>lcccccc Valor &amp; 3-5 &amp; 6-8 &amp; 10-12 &amp; 13-15 &amp; 16-17 &amp; 18\
+Mod. &amp; -2 &amp; -1 &amp; - &amp; +1 &amp; +2 &amp; +3\</p>
+
+<h1>
+<a id="clases-de-personajes" class="anchor" href="#clases-de-personajes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Clases de Personajes</h1>
+
+<p>La versión básica de “Laberintos Tenebrosos” cuenta con las siguientes
+clases de personaje: Guerrero, Paladín, Mago, Ladrón, Elfo, Enano y
+Hobbit. La clase de personaje determina los puntos de vida de tu
+personaje, qué armas y armadura puede emplear y si dispone de
+habilidades especiales.</p>
+
+<p>El guerrero es un experto en el uso de las armas y la vida en el campo,
+pero poco más. Un guerrero solo sabe leer si su inteligencia es superior
+a 9. El Mago es un experto en la magia y, además, conoce gran variedad
+de lenguas y todo tipo de ciencias y conocimientos. El ladrón es una
+criatura de ética peculiar, muy interesado en el dinero de los demás y
+con habilidades especiales para estos lucrativos fines. El elfo, hobbit
+y enanos son criaturas de leyendas, escasas en los reinos humanos, pero
+con poderes y características especiales.</p>
+
+<p>En cuanto al Paladín, es una criatura aparte. Los sabios creen que los
+paladines vienen al mundo re-encarnados de otro que llaman simplemente
+Tierra o “La Tierra”. Dichos paladines tienen como único fin en la vida
+hacer el bien y, por ello, hacen las siguientes promesas la edad de doce
+años y no se separan de ellos de por vida.</p>
+
+<ul>
+<li><p>Caridad. Un paladín debe donar todo el dinero que le sea posible a
+instituciones de Caridad como orfanatos, templos, asilos, etc.</p></li>
+<li><p>Verdad. Un paladín nunca puede mentir. Nunca.</p></li>
+<li><p>Misericordia. Un paladín nunca puede hacer daño a una criatura
+indefensa, o a un monstruo. Debe intentar preservar la vida de
+todos, incluso de un goblin. La única excepción son los demonios,
+que no pueden convertirse al bien.</p></li>
+</ul>
+
+<p>Añade ahora tus puntos de vida a tu hoja de personaje. Como personaje de
+primer nivel empiezas con 1 punto de vida por tu nivel. Añade a eso el
+Modificador que tengas por el Atributo de Constitución. Por último lanza
+el dado de puntos de vida que corresponda a tu clase[^1].</p>
+
+<p>Por ejemplo eres un Mago con Constitución 13. Tienes 1 por tu nivel, +1
+por tu modificador de atributo. Ahora lanzas el 1d4, que es el que
+corresponde al mago y sacas un 3. Tu total es 5 ($1 + 1 + 3 = 5$).</p>
+
+<p>Si el resultado es 0, tendrías 1 punto de vida de todas maneras.</p>
+
+<p>[p]</p>
+
+<p>[c:clases]</p>
+
+<p>lccccp3.7cm Clase &amp; Vida &amp; Armadura &amp; Armas &amp;
+Magia &amp; Especiales\
+Guerrero &amp;$d8$ &amp; Todas &amp; Todas &amp; - &amp; -\
+Mago &amp;$  d4$ &amp; Ninguna &amp; Daga, Honda y Cayado &amp; Sí &amp; -\
+Paladín &amp;$  d8$ &amp; Todas &amp; Cuerpo a Cuerpo &amp; Sí &amp; Curar\
+Ladrón &amp;$  d6$ &amp; Gambesón$^<em>$ &amp; Cortas &amp; - &amp; †\
+Elfo &amp;$  d6$ &amp; Cota de Malla y Gambesón &amp; Cortas y Arco Largo &amp; Sí &amp; ††\
+Enano &amp;$  d6$ &amp; Todas &amp; Cuerpo a cuerpo y Ballesta &amp; - &amp; Infravisión,
+Detectar Oro\
+Hobbit &amp;$  d4$ &amp; Cota de Malla y Gambesón$^</em>$ &amp; Cortas &amp; - &amp; Susurros,
+Silencio\</p>
+
+<p>No puede usar escudo ni casco</p>
+
+<p>† Trampas, Cerraduras, Susurros, Trepar Paredes Lisas</p>
+
+<p>†† Infravisión, Trampas, Susurros, +3 a las tiradas relacionadas con la
+visión</p>
+
+<p>Los cuadros de armas y armaduras especifican qué armas y armaduras
+concretas puede usar cada clase</p>
+
+<h1>
+<a id="habilidades-especiales" class="anchor" href="#habilidades-especiales" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Habilidades especiales</h1>
+
+<p>Permite al ladrón abrir cerraduras con ganzúas, u otra herramienta
+improvsiada. La mayoría de las cerraduras tienen una dificultad típica
+para abrirlas, que se ve en el Cuadro de Dificultades Típicas.</p>
+
+<p>Los personajes que no tengan esta habilidad no pueden intentar abrir
+cerraduras de esta manera, sino que deberán buscar una llave o emplear
+la fuerza.</p>
+
+<p>Permite al paladín Curar $ 1d6$ punto de vida por nivel, a cualquier
+personaje o criatura que no sea él mismo. Puede usar esta habilidad una
+vez al día.</p>
+
+<p>Permite al enano detectar oro o plata hasta una distancia de 20 metros.
+A esta habilidad no le afecta que existan muros u otros obstáculos y
+solo puede impedirse si el tesoro está protegido con magia.</p>
+
+<p>Permite a los elfos y enanos ver en la oscuridad hasta 20 metros de
+distancia como si dispusieran de visión infrarroja. Esto es ven las
+figuras como fuentes de calor. Esta habilidad no funciona a través de
+muros u otros obstáculos sólidos de más de 20 centímetros de grosor.</p>
+
+<p>Permite al hobbit moverse, incluso corriendo, sin hacer ningún ruido en
+absoluto. Ni siquiera puede detectarse con Susurros. Esta habilidad
+requiere una tirada de Destreza con tanta dificultad como la del nivel
+del monstruo de nivel superior que no queremos que nos detecte.</p>
+
+<p>Permite al ladrón al elfo y al hobbit escuchar ruidos muy sutiles, que
+ninguna otra persona sería capaz. También permite comunicarse con
+palabras que solo otro elfo (o ladrón puede escuchar). En ambos casos el
+alcance es hasta 20 metros, y no funciona a través de muros u otros
+obstáculos sólidos de más de 20 centímetros de grosor.</p>
+
+<p>Permite al ladrón descubrir y desactivar trampas. Hace falta una acción
+(y una tirada) distinta para cada acción. Descubrir una trampa es una
+tirada de Sabiduría, mientras que desactivarlas es de Destreza.</p>
+
+<p>Los personajes que carezcan de esta habilidad pueden intentar desactivar
+una trampa que esté visible o que haya sido descubierta por un ladrón.
+Pero lo hacen sumando 3 a la dificultad típica y no pueden añadir su
+nivel.</p>
+
+<p>El fracaso intentando desactivar una trampa hace que se active.</p>
+
+<p>Permite al ladrón trepar por cualquier pared, por lisa que sea, sin
+emplear herramientas de escalada. El uso de esta habilidad requiere una
+Tirada de Destreza con una dificultad de 1 por cada tres metros de
+altura. Un fallo hace que el ladrón desista a mitad de la subida, una
+pifia supone una caída.</p>
+
+<p>El uso de herramientas de escalada permite al ladrón reducir la
+dificultad a la mitad. El resto de los personajes solo puede subir con
+herramientas de escalada, pero con la dificultad que tendrían
+normalmente.</p>
+
+<p>[p]</p>
+
+<p>lcccccc Niveles &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6\
+Cerraduras &amp; 2 &amp; 3 &amp; 5 &amp; 6 &amp; 8 &amp; 9\
+Trampas &amp; 3 &amp; 5 &amp; 7 &amp; 8 &amp; 9 &amp; 10\</p>
+
+<p><img src="escudo.png" alt="image"></p>
+
+<h1>
+<a id="compra-tu-equipo" class="anchor" href="#compra-tu-equipo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Compra tu Equipo</h1>
+
+<p>Tira $ 3d6$ x 10 (Tres dados de 6 caras y multiplica el resultado por
+10). Ese es el total de monedas de oro que tu personaje tiene al
+comenzar la partida. Puedes gastar todo ese dinero en comprar el equipo
+necesario. Los precios y otros detalles vienen en el Cuadro de Equipo.</p>
+
+<p>No te olvides de comprar tus armas y armaduras. Anota todo en tu hoja de
+personaje y, especialmente, tu clase de Armadura. Recuerda que tu clase
+de armadura es igual a la de armadura que lleves más tu modificador por
+Destreza.</p>
+
+<p>1 moneda de oro (mo) = 100 monedas de plata (mp) = 1000 monedas de cobre
+(mc)</p>
+
+<p>[p]</p>
+
+<p>lccccc Arma &amp; Coste &amp; Daño &amp; Peso &amp; Manos &amp; Clases\
+Hacha de Mano &amp; 6mo &amp; $ 1d8$ &amp; 1 &amp; 1 &amp; a\
+Ballesta &amp; 3mo &amp; $ 1d8$ &amp; 2 &amp; 2 &amp; b\
+Daga &amp; 3mo &amp; $ 1d4$ &amp; 0,5 &amp; 1 &amp; T\
+Arco Largo &amp; 40 mo &amp; $ 1d8$ &amp; 1 &amp; 2 &amp; c\
+Arco Corto &amp; 7mo &amp; $ 1d6$ &amp; 1 &amp; 2 &amp; b\
+Maza &amp; 5mo &amp; $ 1d6$ &amp; 1 &amp; 1 &amp; a\
+Alabarda &amp; 7mo &amp; $1d10$ &amp; 7 &amp; 2 &amp; d\
+Cayado &amp; 1mp &amp; $ 1d6$ &amp; 2 &amp; 2 &amp; T\
+Honda &amp; 5mc &amp; $ 1d4$ &amp; - &amp; 2 &amp; T\
+Espada Corta &amp; 7mo &amp; $ 1d6$ &amp; 1 &amp; 1 &amp; a\
+Espada &amp; 10mo &amp; $ 1d8$ &amp; 1 &amp; 1 &amp; e\
+Lanza &amp; 1mo &amp; $ 1d6$ &amp; 1 &amp; 1 &amp; e\
+Mandoble &amp; 20mo &amp; $ 3d4$ &amp; 3 &amp; 2 &amp; f\
+Sin Armas &amp; - &amp; $ 1d2$ &amp; - &amp; - &amp; T\</p>
+
+<p>T Todos</p>
+
+<p>a Todos menos el mago</p>
+
+<p>b Guerrero, Ladrón, Enano y Hobbit</p>
+
+<p>c Guerrero y Elfo</p>
+
+<p>d Guerrero y Enano</p>
+
+<p>e Guerrero, Paladín, Elfo y Enano</p>
+
+<p>f Guerrero</p>
+
+<p>[p]</p>
+
+<p>lccp5cm Objeto &amp; Coste &amp; Peso &amp; Notas\
+Mochila&amp;2mo&amp;1 &amp; 12 objetos\
+Manta&amp;1mp&amp;1\
+Botella de cristal&amp;2mo&amp;-\
+Velas(10)&amp;10mc&amp;-\
+Cadenas(3m)&amp;30mo&amp;1\
+Palanqueta&amp;2mo&amp;2\
+Yesca y pedernal&amp;1mp&amp;-&amp;Para hacer fuego\
+Garfio de escalada&amp;1mo&amp;-\
+Martillo&amp;5mp&amp;-&amp; Pequeño\
+Símbolo Sagrado&amp;25mo&amp;1\
+Tintero &amp; 8mo &amp;\
+Pluma &amp; 1mp &amp;\
+Lámpara de aceite &amp; 9mo &amp; 1\
+Esposas &amp; 15mo &amp; 1 &amp; Tirada FUE con dificultad 5\
+Petróleo &amp; 1mp &amp; 0,5\
+Papiro (1 hoja) &amp; 1mp &amp; -\
+Pico &amp; 3mo &amp; 4\
+Vara 3 metros &amp; 2mp &amp; 2\
+Raciones 1 día &amp; 2mp &amp; 1 &amp; Por persona\
+Cuerda (15 metros) &amp; 1mo &amp; 2,5\
+Pala &amp; 2mo &amp; 4 s\
+Piquetas (12) &amp; 1mo &amp; 4 &amp; Para escalar\
+Ganzúas &amp; 30mo &amp; 0,5\
+Antorchas (8) &amp; 3mp &amp; 4\
+Agua Bendita (1 frasco) &amp; 25mo &amp; -\
+Flechas(12) &amp; 1mp &amp; 1\
+Aljaba &amp; 1mp &amp; 1\
+Saco &amp; 5mc &amp; 1 &amp; Para piedra de honda\</p>
+
+<p>[p]</p>
+
+<p>lcc</p>
+
+<p>Armadura &amp; Clase &amp; Coste\
+Ropas Normales &amp; 9 &amp; 1mp\
+Gambesón &amp; 7 &amp; 30mo\
+Cota de Malla &amp; 5 &amp; 100mo\
+Armadura de Placas &amp; 3 &amp; 200mo\
+Escudo &amp; -2 &amp; 10mo\
+Casco &amp; -1 &amp; 10mo\</p>
+
+<p>Los escudos y cascos no tienen una clase de armadura por si mismo sino
+que modifican la clase de otra armadura. Por ejemplo si solo llevas
+ropas normales pero tienes casco y escudo, –como era normal en los
+guerreros más pobres de la Edad Media—, tu clase de armadura es 9 - 2
+(escudo) - 1 (casco) = 6.</p>
+
+<h1>
+<a id="acciones" class="anchor" href="#acciones" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Acciones</h1>
+
+<p>Los personajes pueden intentar dos acciones por turno, pero solo una de
+ellas puede ser un ataque.</p>
+
+<p>Excepto los ataques y los conjuros, –que tienen sus reglas especiales–,
+todas las demás acciones se resuelven mediante una prueba del atributo
+más adecuado, según decida el máster.</p>
+
+<p>Para hacer una prueba de atributo, el jugador lanza $ 3d6$, le resta su
+nivel y le suma la dificultad. Si el total es menor que el atributo, ha
+pasado la prueba, si es mayor ha fracasado.</p>
+
+<p>Por ejemplo: Supongamos que un personaje de nivel 1 quiere derribar una
+puerta a patadas. El máster decide que el atributo más adecuado es
+Fuerza y que la dificultad es 3. El jugador mira a su hoja de personaje
+y comprueba que su fuerza es 18. Ahora lanza los dados obteniendo un
+total de 17 en los dados, sumando la dificultad tiene 20 y restando su
+nivel llega a 19, que es mayor que su atributo de fuerza y, por ello, ha
+fracasado.</p>
+
+<p>Recuerda: Dados + Dificultad - Nivel &lt; Atributo</p>
+
+<h1>
+<a id="salvar" class="anchor" href="#salvar" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Salvar</h1>
+
+<p>En las pruebas de salvar o tiradas de salvación tratas de que tu
+personaje escape a un efecto adverso. Se trata de una reacción que el
+jugador no la anunciado, pero obvia. Por ejemplo, si entra en una trampa
+y le va a caer una piedra encima debe Salvar por Destreza para
+esquivarla.</p>
+
+<p>Las pruebas de salvar se hacen con una prueba de atributo, con la
+dificultad que el máster estime en cada caso. La Destreza suele ser el
+atributo más adecuado para aquello que implique movimientos rápidos,
+como saltar o agarrarse a un precipicio en el último segundo. La
+Inteligencia se suele emplear para no dejarse engañar por un espejismo
+mágico. La Sabiduría viene bien para resistir magia manipulativa. Por
+último la Constitución es, normalmente, la más adecuada para resistir
+venenos y enfermedades.</p>
+
+<p>Una tirada de 5 o menos en un Prueba o Salvación es siempre un fallo.</p>
+
+<p>Los monstruos hacen las pruebas contra su nivel de monstruo más 10. Así,
+un goblin de nivel 1 tendría un 11 en todas sus atributos, a efectos de
+pruebas y salvaciones.</p>
+
+<p>Sin embargo el máster puede tener en cuenta las especiales
+características de cada monstruos cosa. (Por ejemplo puedes decir que un
+zombi salva por DES con un valor de solo 7, por lo torpes que son.)</p>
+
+<h1>
+<a id="iniciativa" class="anchor" href="#iniciativa" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Iniciativa</h1>
+
+<p>En cada turno de combate, cada grupo de luchadores, tira $ 1d20$ por
+iniciativa. El grupo que saque más actúa primero, repitiéndose los
+empates.</p>
+
+<p>La única excepción es cuando un grupo ha sorprendido al otro. En ese
+caso el grupo que ha sido sorprendido no actúa en absoluto durante ese
+turno.</p>
+
+<h1>
+<a id="niveles" class="anchor" href="#niveles" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Niveles</h1>
+
+<p>En “Laberintos Tenebrosos” todas las cosas, las personas y los objetos
+tienen niveles. Los niveles son una forma aproximada de indicar cuál es
+su capacidad. Lo más mundano y simple tiene nivel 0, pero la mayoría de
+los elementos a los que se enfrentarán los personajes jugadores tienen
+nivel 1 o superior.</p>
+
+<p>En general una cosa o monstruo tendrá un nivel aproximadamente igual o
+inferior al del Laberinto en que se encuentre. Por ejemplo en el nivel 3
+de un laberinto, —o en un castillo, o incluso un bosque encantado de
+nivel 3—, la mayoría de las pociones que se encuentren serán de nivel 3.
+Serán de nivel 3 también muchos de los monstruos a los que se enfrenten.</p>
+
+<p>Una excepción son los tesoros. Los tesoros de nivel 1 a 6 están
+diseñados para representar lo que un individuo puede llevar encima
+mientras que los niveles 7 y superior para lo que pueda contener las
+“cámaras del tesoro” de un laberinto.</p>
+
+<h1>
+<a id="ataques" class="anchor" href="#ataques" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Ataques</h1>
+
+<p>Para realizar un ataque tira un $ 1d20$ y suma (o resta) el modificador
+por el atributo adecuado (Fuerza si son armas de cuerpo a cuerpo, —como
+una espada—, y Destreza si son armas a distancia, —como un arco). El
+número que tienes que sacar debe ser mayor que el resultado restar la
+Clase de Armadura del Objetivo a tu Capacidad de Ataque.</p>
+
+<p>$1d20$ + Modificador &gt; Capacidad de Ataque - Clase de Armadura</p>
+
+<p>Eso suena muy difícil, así que pongamos un ejemplo. Eres un guerrero de
+nivel 1 y atacas a un Kobold con tu espada. Tu Fuerza es 13, así que
+tienes un modificador de +1. Tiras $ 1d20$, sacas un 16 y le sumas tu
+modificador. Así que tu total es 17.</p>
+
+<p>Ahora, como eres un guerrero de nivel 1, tu Capacidad de ataque es 19.
+El kobold tiene una Clase de Armadura de 6. Restas a tu Capacidad de
+Ataque su Clase de Armadura y tienes un 19-6 = 13.</p>
+
+<p>Y comparamos 17 es mayor que 13 por lo que le has dado al kobold.</p>
+
+<ul>
+<li><p>Fuerza: 13 +1</p></li>
+<li><p>Capacidad de Ataque: 19</p></li>
+<li><p>Armadura del Objetivo: 6</p></li>
+</ul>
+
+<p>$\textbf{16} + 1 &gt; 19 - 6$ ¡Impacto!</p>
+
+<p>Supongamos que sacaras un <strong>12</strong>. La cosa cambia. Ahora tu total es de
+<strong>12</strong> + 1, 13, que es exactamente lo mismo que resta 19 - 6. El
+resultado no supera lo que tenías que sacar, 13 y, por tanto, fallas.</p>
+
+<p>$\textbf{12} + 1 = 19 - 6$ ¡Fallo!</p>
+
+<p>Añade 1 punto a la clase de Armadura de tu objetivo por cada 30 metros
+completos de distancia que estén alejados de tu objetivo. Añade 1 punto
+más si hay lluvia. Por último añade 3 puntos si está medio protegido por
+un muro o un obstáculo semejante, siempre que asome algo que se pueda
+golpear.</p>
+
+<p>[p]</p>
+
+<p>lcccccc Clase &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6\
+Humano Normal &amp; 20\
+Ladrón &amp; 19 &amp; 19 &amp; 19 &amp; 18 &amp; 18 &amp; 17\
+Guerrero &amp; 19 &amp; 18 &amp; 17 &amp; 16 &amp; 15 &amp; 14\
+Mago &amp; 20 &amp; 19 &amp; 18 &amp; 17 &amp; 17 &amp; 16\
+Otros &amp; 19 &amp; 19 &amp; 18 &amp; 17 &amp; 16 &amp; 15\
+Monstruos &amp; 19 &amp; 19 &amp; 18 &amp; 18 &amp; 17 &amp; 17\</p>
+
+<p>Si sacas un 1 en una tirada de ataque, puedes haberla pifiado. Para
+comprobarlo, haz una prueba de Destreza. Si la fallas habrás pifiado y
+tu personaje se caerá al suelo.</p>
+
+<p>Sin embargo, si sacaras un triple uno al hacer la prueba de destreza, la
+pifia será una pifia trágica y tu arma habrá herido al compañero que
+tengas más cercano o, si eso no es posible, a ti mismo.</p>
+
+<p>A veces el máster puede decidir bajar temporalmente la clase de armadura
+normal de un personaje o monstruo para reflejar circunstancias
+especiales, como un personaje que tiene las manos atadas o un monstruo
+apenas visible en la oscuridad.</p>
+
+<p><img src="lira.png" alt="image"></p>
+
+<h1>
+<a id="daño-y-muerte" class="anchor" href="#da%C3%B1o-y-muerte" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Daño y Muerte</h1>
+
+<p>Para determinar el daño, comprueba el daño que hace tu arma y suma (o
+resta) tu modificador por Fuerza. El resultado es el número de puntos
+que el máster restará a la vida del monstruo.</p>
+
+<p>Si los puntos de vida de un monstruo llegan a 0, habrá muerto y ganarás
+sus puntos de experiencia.</p>
+
+<p>Si puntos de vida de un personaje jugador llegan a 0 cae inconsciente y
+no puede hacer nada más, ni siquiera hablar, hasta que termine el
+combate. Un personaje inconsciente puede ser rematado por un monstruo
+que esté a su lado, pero, por lo general, los monstruos preferirán
+luchar contra los enemigos que todavía les pueden hacer daño.</p>
+
+<p>Si todos los personajes quedan inconscientes quedarán a merced de los
+monstruos quienes normalmente los rematarán o los convertirán en
+esclavos, robándoles todo su equipo, hasta sus zapatos, y llevándolos a
+su base o vendiéndolos a un esclavista.</p>
+
+<p>Terminado el combate un personaje inconsciente se recupera y gana 1
+punto de vida.</p>
+
+<p>Las reglas de hambre son simples. Cada día en el que el personaje no
+coma una ración completa el personaje ha de Salvar Constitución. La
+dificultad es de 1 si no ha comido nada en absoluto y 1 más por cada
+tres días sin comer. Si falla la tirada de salvación baja 1 punto, al
+azar, entre uno de sus atributos.</p>
+
+<p>Si alguno de los atributos llega a 0 el personaje es incapaz de moverse.
+Si dos de los atributos llegan a 0 el personaje muere.</p>
+
+<p>Es imposible crear reglas para todos los enfermedades y venenos
+posibles. En general el personaje ha de salvar Constitución. Si falla
+sufrirá las consecuencias que dependerán de cada veneno o enfermedad. Lo
+más simple es que pierda un número de puntos de daño, —por ejemplo
+$1d6$—, o de algún atributo.</p>
+
+<p>Las caídas de menos de tres metros no producen daño alguno en
+“Laberintos Tenebrosos”. Sin embargo, a partir de ahí, hacen $1d4$ de
+daño por cada tres metros completos. (O sea $2d4$ a los seis metros,
+$3d4$ a los nueve metros y así). El dado es de $1d6$ si la caída es
+sobre suelo de piedra o similar.</p>
+
+<p>Si caes sobre estacas afiladas añade, además, $1d6$ extra.</p>
+
+<p>El daño del fuego es por turno que tu personaje se exponga a él. En el
+caso de una antorcha será de $1d6$ y sigue subiendo hasta 6d6. Un caso
+extremo es caer sobre lava. Primero sufres el daño de la caída como si
+hubieras caido sobre piedras y, después, $6d6$ de daño por fuego y
+turno.</p>
+
+<h1>
+<a id="curación" class="anchor" href="#curaci%C3%B3n" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Curación</h1>
+
+<p>Los personajes pueden recuperar puntos de vida mediante conjuros,
+pociones mágicas y la habilidad de curar del paladín. Esta recuperación
+nunca puede superar el que tenían al comenzar la aventura (o al subir de
+nivel).</p>
+
+<p>También se recuperan puntos de vida descansando. Una noche de descanso
+se recuperan $1d4$ puntos de vida. Esta recuperación tampoco puede
+superar el número de puntos de vida que tenía al comenzar la aventura (o
+al subir de nivel).</p>
+
+<h1>
+<a id="experiencia" class="anchor" href="#experiencia" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Experiencia</h1>
+
+<p>Se ganan puntos de experiencia de tres maneras distintas: Derrotando a
+monstruos (no sólo matarlos), resolviendo aventuras y encontrando
+tesoros.</p>
+
+<p>Los mostruos dan, si no se dice otra cosa, tantos puntos de experiencia
+como su nivel multiplicado por 5.</p>
+
+<p>Cuando el máster considere que los jugadores han resuelto una aventura,
+o vencido a un monstruo principal o sobrevivido a un laberinto, les debe
+recompensar con 1000 a 2000 puntos por nivel de la aventura. Estos
+puntos deben repartirse entre todos los personajes jugadores.</p>
+
+<p>En general se gana 1 punto de experiencia por moneda de oro que
+encuentre cada jugador. Otros tipos de tesoro dan tantos puntos de
+experiencia como monedas de oro cuesten.</p>
+
+<h1>
+<a id="subir-de-nivel" class="anchor" href="#subir-de-nivel" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Subir de Nivel</h1>
+
+<p>Cuando se acumulen los suficientes puntos de experiencia (XP), se pasa
+de nivel. Esto sucede inmediatamente pero nunca en medio de un combate.</p>
+
+<p>Al subir de nivel se producen los siguientes beneficios.</p>
+
+<ol>
+<li><p>Se recuperan todos los puntos de vida perdidos.</p></li>
+<li><p>Se lanza 1 dado de puntos de vida, se añade el modificador por
+Constitución y se suma un punto extra. En cualquier caso, se gana
+como mínimo 1 punto.</p></li>
+<li><p>Se lanza 1$  d20$ por atributo. Si la tirada es menor que el
+atributo, añade un punto a tu atributo.</p></li>
+<li><p>Los magos y elfos <em>pueden ahora aprender</em> 1 conjuro nuevo. Para ello
+deben encontrar un maestro o un libro de conjuros y pasar al menos
+un día estudiando el nuevo conjuro. A terminar ese periodo hacen una
+prueba por Inteligencia añadiendo como dificultad el nivel de
+conjuro.</p></li>
+<li><p>Los paladines <em>aprenden</em> un nuevo conjuro haciendo una peregrinación
+a un templo.</p></li>
+</ol>
+
+<p>[p]</p>
+
+<p>lccccc Clases &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6\
+Guerrero &amp; 2,035 &amp; 4,065 &amp; 8,125 &amp; 16,251 &amp; 32,501\
+Paladín &amp; 3,500 &amp; 5,251 &amp; 12,251 &amp; 22,501 &amp; 45,001\
+Mago &amp; 2,500 &amp; 5001 &amp; 10,001 &amp; 20,001 &amp; 40,001\
+Ladrón &amp; 1,251 &amp; 2,501 &amp; 5,001 &amp; 10,001 &amp; 20,001\
+Elfo &amp; 4,065 &amp; 8,125 &amp; 16,251 &amp; 32,501 &amp; 65,001\
+Enano &amp; 2,101 &amp; 4,201 &amp; 8,751 &amp; 17,501 &amp; 35,501\
+Hobbit &amp; 2,305 &amp; 4,605 &amp; 8,125 &amp; 16,251 &amp; 32,501\</p>
+
+<h1>
+<a id="carga" class="anchor" href="#carga" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Carga</h1>
+
+<p>Un personaje puede transportar hasta 12 objetos en su mochila y hasta
+tres armas del tipo de las espada, hachas o maza colgando de su cinto.
+Puede llevar también un escudo en un brazo o fijado a la espalda. El
+arco puede llevarse también a la espalda si no se lleva escudo. La honda
+no ocupa espacio alguno y la bolsa de piedras puede llevarse al cinto.</p>
+
+<p>Además de eso un personaje puede transportar tantos kilos como su
+$Fuerza + 6$, sin perjuicio. Si lleva más de eso sufren un perjuicio de
+un punto a todas sus tiradas.</p>
+
+<p>En ningún caso pueden llevar más del doble de kilos que su Fuerza.</p>
+
+<h1>
+<a id="esclavitud-sesclavitud" class="anchor" href="#esclavitud-sesclavitud" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Esclavitud {#s:esclavitud}</h1>
+
+<p>Un personaje puede ser sometido a la esclavitud si es esclavizado por un
+brujo goblin u otro tipo de criatura malvada con esos poderes. Para
+esclavizar a un personaje el monstruo debe rodear su cuello con una
+argolla metálica y pintar o grabar un símbolo en su piel. Esta ceremonia
+es mágica, no puede resisitirse, y supone las siguientes consecuencias
+al desventurado esclavo:</p>
+
+<ol>
+<li><p>Pierde todos sus conjuros y es incapaz de ejercer la magia, con la
+excepción de conjuros de curación y luz.</p></li>
+<li><p>Los elfos y los enanos pierden su capacidad de infravisión.</p></li>
+<li><p>La capacidad de ataque del personaje se fija en 20.</p></li>
+<li><p>Los ladrones pierden su capacidad de abrir cerraduras.</p></li>
+<li><p>Su piel se vuelve azul.</p></li>
+<li><p>Un personaje así esclavizado gana 1 punto de experiencia por cada
+día que permanezca como esclavo. Gana 10 puntos por cada orden que
+cumplan a la total satisfacción de su amo.</p></li>
+</ol>
+
+<p>Un personaje se libra de la maldición de la esclavitud cuando consigue
+estar en libertad durante dos días seguidos.</p>
+
+<h1>
+<a id="moral" class="anchor" href="#moral" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Moral</h1>
+
+<p>La mayoría de los monstruos no lucharán hasta la muerte si es evidente
+que van a ser derrotados. En esas circunstancias el máster tira $ 1d20$
+y si el resultado supera el valor de moral de los monstruos
+supervivientes, éstos tratarán de huir.</p>
+
+<p>Si no es posible se rendirán si tienen la inteligencia para ello. Si no,
+atacarán tratando de abrirse paso a la salida más cercana.</p>
+
+<p>El valor de moral de la mayoría de los monstruos es de 5 + su nivel.</p>
+
+<p><img src="06.jpg" alt="image"></p>
+
+<h1>
+<a id="magia" class="anchor" href="#magia" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Magia</h1>
+
+<p>Elfos, Magos y Paladines tienen la habilidad de lanzar los conjuros que
+tengan aprendidos. Solo pueden lanzar estos conjuros un máximo de una
+vez por día, recuperando la capacidad con cada nuevo amanecer.</p>
+
+<h1>
+<a id="conjuros-de-mago-y-elfo" class="anchor" href="#conjuros-de-mago-y-elfo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Conjuros de Mago y Elfo</h1>
+
+<p>Familiar</p>
+
+<p>:   Permite al mago trabar amistad con un animal, nunca mayor que una
+    lechuza o un perro medio. Dicho animal le será siempre fiel y
+    entendrá todas sus instrucciones. Este conjuro solo se puede lanzar
+    sobre un animal que ya sea amigo del mago. Solo se puede tener un
+    familiar a la vez. Un familiar no puede regalarse ni venderse.
+    Tampoco puede el mago crear familiares para otras personas.</p>
+
+<p>Luz</p>
+
+<p>:   Crea una luz en un objeto que ilumina como una vela. 1 Hora.</p>
+
+<p>Encantar</p>
+
+<p>:   Encanta a criaturas que totalicen $1d3$ niveles por cada 2 niveles
+    del mago. El mago puede dar una orden que la criatura o criaturas
+    cumplirán.</p>
+
+<p>Proyectil Mágico</p>
+
+<p>:   Lanza un proyectil mágico que impacta en el objetivo sin remisión
+    haciendo, por lejos que esté siempre que el mago lo pueda ver, $1d4$
+    puntos de daño por nivel del mago.</p>
+
+<p>Escudo</p>
+
+<p>:   El mago resta 1 punto a su Clase de Armadura por nivel. También
+    puede lanzarse sobre otra persona.</p>
+
+<p>Dormir</p>
+
+<p>:   Duerme a criaturas que totalicen $4d6$ niveles.</p>
+
+<p>Oscuridad</p>
+
+<p>:   Crea una oscuridad que bloquea todo tipo de visión, incluso
+    infravisión, en un área de 20 metros cuadrados. 1 hora.</p>
+
+<p>Invisibilidad</p>
+
+<p>:   Una criatura que pueda tocar (o él mismo) se vuelve invisible hasta
+    que haga un ataque.</p>
+
+<p>Toc, toc</p>
+
+<p>:   Abre una cerradura.</p>
+
+<p>Levitar</p>
+
+<p>:   El mago flota en el aire hasta 2 metros. 10 minutos por nivel.</p>
+
+<p>Quitar Magia</p>
+
+<p>:   Hace desvanecerse los efectos de un conjuros.</p>
+
+<p>Ilusión</p>
+
+<p>:   Crea una ilusión que parece real, pero desaparece al contacto. El
+    tamaño de la ilusión depende del nivel del mago. A nivel 1 puede
+    crear algo del tamaño de una moneda, a nivel 2 de un cofre, a nivel
+    3 de un niño, a nivel 4 de un adulto, a nivel 5 de un caballo y a
+    nivel 6 de una casa. 1 hora.</p>
+
+<p>Muro</p>
+
+<p>:   Crea un muro de piedra de hasta 3 metros de alto, 20 metros de largo
+    y 1 metro de ancho. 1 hora.</p>
+
+<p>Resbalo</p>
+
+<p>:   El objetivo, que el mago debe poder ver, debe salvar DES cada turno
+    o caer al suelo. Duración 15 minutos.</p>
+
+<p>Empatía</p>
+
+<p>:   El mago puede adivinar las emociones y pensamientos de todas los
+    monstruos que estén a su vista. Duración 1 turno.</p>
+
+<p>Lluvia de meteoros</p>
+
+<p>:   El mago designa un círculo con un radio de su nivel en metros, o
+    inferior si así lo desea. Dentro de ese círculo caerán una lluvia de
+    meteoros que hace 1 puntos de daño por cada dos niveles del mago.</p>
+
+<h1>
+<a id="conjuros-de-paladín" class="anchor" href="#conjuros-de-palad%C3%ADn" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Conjuros de Paladín</h1>
+
+<p>Curar Heridas</p>
+
+<p>:   Cura $1d4$ Puntos de vida por nivel del paladín.</p>
+
+<p>Detectar el mal</p>
+
+<p>:   Todo lo maligno que esté a $1d4$ metros por nivel del paladín brilla
+    5 minutos.</p>
+
+<p>Luz</p>
+
+<p>:   Crea una luz en un objeto que ilumina como una vela. 1 Hora.</p>
+
+<p>Purificar Comida y Bebida</p>
+
+<p>:   Quita las enfermedades que pudieran tener.</p>
+
+<p>Bendecir</p>
+
+<p>:   Los aliados ganan +1 a la tirada de ataque y -1 a las pruebas.</p>
+
+<p>Encontrar Trampas:</p>
+
+<p>:   Encuentra todas las trampas a $ 1d4$ metros por nivel del paladín.
+    Dura 10 minutos.</p>
+
+<p>Paralizar</p>
+
+<p>:   Paraliza criaturas y personas que totalicen $ 1d4$ niveles por cada
+    2 niveles del paladín. Dura 10 minutos.</p>
+
+<p>Hablar con Animales</p>
+
+<p>:   Puede hablar y entender a los animales</p>
+
+<p>Curar Enfermedad</p>
+
+<p>:   Cura una enfermedad a una persona o criatura que pueda tocar.</p>
+
+<p>Quitar maldición</p>
+
+<p>:   Quita una maldición, como la esclavitud, a una persona u objeto.</p>
+
+<p>Hablar con los muertos</p>
+
+<p>:   Permite hacer tres preguntas a un muerto, cuya tumba esté a menos de
+    1 metro.</p>
+
+<p>Dispersar muertos vivientes</p>
+
+<p>:   Hace que huyan no muertes que totalicen $ 1d3$ niveles por cada 2
+    niveles del paladín. 10 minutos.</p>
+
+<p>Sacrificio</p>
+
+<p>:   El paladín sacrificia su propia salud por otra persona. Pierde 1d6
+    puntos por nivel del paladín y, a cambio, restaura esos mismos
+    puntos de vida a otra persona o criatura o cura de cualquier
+    enfermedad o maldición. El paladín puede luego recuperarse por
+    medios normales. Si el paladín siempre se quedará con al menos 1
+    punto de vida.</p>
+
+<p>Lenguas</p>
+
+<p>:   Permite al paladín entender y hablar en cualquier idioma. 15
+    minutos.</p>
+
+<p>Bendecir agua</p>
+
+<p>:   Permite al paladín bendecir suficiente agua para 1 uso. Este agua no
+    debe mezclarse.</p>
+
+<h1>
+<a id="conjuros-de-brujo" class="anchor" href="#conjuros-de-brujo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Conjuros de Brujo</h1>
+
+<p>Estos conjuros son típicos de los goblins y otros monstruos. No
+obstante, y siempre a juicio del máster, los monstruos pueden disponer
+de otros conjuros.</p>
+
+<p>Fétido</p>
+
+<p>:   El brujo crea una nube fétida de $1d12$ metros de radio cuyo centro
+    queda a una distancia de hasta 12 metros. El objetivo salva CON o
+    perjuicio de 1 a todas las tiradas.</p>
+
+<p>Guerra</p>
+
+<p>:   El brujo lige una criatura, amiga o enemiga que pueda ver. Esa
+    criatura se vuelve loca, corre al enemigo más cercano y ataca sin
+    preocuparse por sí misma. Beneficio de 2 a la capacidad de
+    ataque, +2 al a daño, pero +2 a la clase de armadura. Si se lanza
+    sobre un enemigo —para llevarlo a una pelea que no puede ganar—,
+    éste puede resistirse si salva SAB.</p>
+
+<p>Fuego</p>
+
+<p>:   Lanza una bola de fuego de medio metro de radio. El brujo elige un
+    punto, y tira para ver cuánto se desvía. La bola de fuego aparece a
+    $1d6-1d6$ metros al norte y $1d6-1d6$ metros al este. Las criauras
+    que estén dentro de la bola (medio metro del punto) sufren $3d4$ de
+    daño. $2d4$ hasta un metro, $1d4$ hasta dos metros y nada más allá
+    de dos metros.</p>
+
+<p>Destrucción</p>
+
+<p>:   El brujo elige un elemento de piedra, ladrillo, granito o mármol a
+    una distancia de 20 metros o menos. El elemento se destruye de forma
+    explosiva, creando una brecha de 1 metro de ancho por tres de alto y
+    tres de profundidad. Las criaturas que estén a menos de tres metros,
+    y no salven DES sufren $1d6$ puntos de daño por los cascotes que
+    salen volando en todas direcciones.</p>
+
+<p>Hierro Ardiente</p>
+
+<p>:   El brujo elige un objeto de hierro que pueda ver. Dicho objeto queda
+    bajo una maldición que consiste en que se calienta tanto que no
+    puede sostenerse con las manos. EL objetivo debe salvar CON o elegir
+    entre desprenderse del objeto o sufrir 1d6 puntos de daño. No puede
+    lanzarse sobre objetos mágicos. Duración: 1 combate.</p>
+
+<p>Esclavitud</p>
+
+<p>:   Ver reglas de Esclavidud en la página .</p>
+
+<p>Podredumbre</p>
+
+<p>:   A distancia, 20 metros. Todo objeto que lleve encima que se pueda
+    pudrir, como la comida y la bebida, se pudre y no puede usarse. No
+    afecta al agua bendita.</p>
+
+<p>Olvido</p>
+
+<p>:   El brujo lanza el conjuro sobre un objetivo que pueda ver. Si el
+    objetivo no salva Sabiduría todos los que le conozcan se olvidarán
+    de su existencia. Este conjuro se suele usar para preparar
+    secuestros y otros crímines. Duración 1 año.</p>
+
+<p>Tormenta</p>
+
+<p>:   El brujo provoca una tormenta, que puede comenzar incluso dentro de
+    una habitación y puede extenderse a un área del tamaño y forma que
+    el brujo desee hasta un círculo de 1 kilómetro de radio. El primer
+    turno se levanta una brisa. El segundo turno el viento es tan fuerte
+    que cierra todas la puertas e impide que se puedan usar armas a
+    distancia y llueve, apagando antorchas. El tercer turno todas las
+    criaturas dentro del área de la tormenta, que no estén a resguardo
+    deben salvar DES o sufrir 1d4 puntos de daño por impactos de
+    pequeños objetos. Además no pueden moverse. La lluvia aumenta la
+    intensidad. En el cuarto turno la tormenta desaparece.</p>
+
+<p>Nube de calamar</p>
+
+<p>:   El brujo genera una nube negra que impide todo tipo de visión,
+    incluso mágica. Dicha nube es de tres metros de radio y puede
+    colocarse a una distancia de hasta 12 metros del brujo. Quien
+    intente entrar en esa nube queda manchado de una tinta negra y
+    espesa, que no puede lavarse sino tras 1 hora de esfuerzo, jabón y
+    agua caliente.</p>
+
+<p>Poseer</p>
+
+<p>:   El brujo debe tocar a una criatura que permanezca quieta. Si dicha
+    criatura no salva por SAB o por nivel, —bien porque no se resista o
+    falle la tirada—, quedará poseida por el brujo. El antiguo cuerpo
+    del brujo muere al instante. El brujo adquirirá todas las
+    competencias de la criatura y, además, podrá lanzar sus conjuros
+    como hasta ahora.</p>
+
+<p>Miedo</p>
+
+<p>:   Distancia 20 metros. Duración 1d4 turnos. Salva SAB cada turno o
+    huye del combate, arrojando tus armas al suelo y corriendo en la
+    dirección opuesta a tus enemigos.</p>
+
+<p>Agujero Negro</p>
+
+<p>:   Crea un agujero negro en el suelo de 50 centímetros de radio a una
+    distancia de hasta 20 metros del brujo y que dura un combate.
+    Cualquier criatura que caiga en su interior desaparece para siempre.</p>
+
+<p>Llamamos “laberinto”, —en realidad—, a cualquier lugar de aventuras. Un
+laberinto podría ser una cueva, un castillo, un bosque o incluso una
+nave espacial abandonada hace siglos por visitantes alienígenas a tu
+mundo de fantasía medieval. Sin embargo, la forma más común de
+“laberinto” es, bueno, un laberinto subterráneo lleno de pasillos
+estrechos y serpenteantes, habitaciones, cámaras secretas, celdas,
+rejas, trampas, escaleras y pasadizos secretos. En su interior residen
+una extraña variedad de habitantes: animales de la oscuridad, monstruos,
+goblins, sus esclavos, y todo lo que el máster quiera añadir.</p>
+
+<p>2</p>
+
+<p><img src="dungeon.png" alt="image"></p>
+
+<h1>
+<a id="tu-propio-laberinto" class="anchor" href="#tu-propio-laberinto" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tu propio laberinto</h1>
+
+<p>El máster deberá proporcionar a los jugadores un “laberinto”.
+Afortunadamente, hoy hay miles de “dungeons” —como se denominan en
+Inglés— disponibles para descargar. Incluso hay herramientas, como
+<a href="https://donjon.bin.sh/">https://donjon.bin.sh/</a> que generan dungeons en segundos.</p>
+
+<p>Pero si el máster quiere crear un dungeon, le basta un papel
+cuadriculado. Que tu primer dungeon sea pequeño, pon doce habitaciones,
+en una pon el tesoro, en otra pon celdas, pon también cocina, comedor y
+baño. Añade, si quieres, una sala del trono para el caudillo de los
+goblins o el monstruo principal. Decide qué vas a poner en las otras
+habitaciones a tu gusto. Por último por una entrada principal y, quizás,
+una entrada alternativa.</p>
+
+<p>Ahora puebla el dungeon con habitantes, tesoros y trampas. Recuerda el
+nivel de tus personaje y no se lo pongamos ni demasiado difícil ni
+demasiado fácil.</p>
+
+<h1>
+<a id="el-mundo" class="anchor" href="#el-mundo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>El mundo</h1>
+
+<p>“Laberintos Tenebrosos” transcurre en un mundo de juego de fantasía
+medieval. Eso significa que se inspira en la edad media europea, pero
+añadiendo tanta fantasía como quieras. Cada máster es responsable de su
+propio mundo de juego, pero mi consejo es que empieces por un lugar
+pequeño. Todo lo que hace falta es una base para los jugadores, unas
+tierras salvajes y, en medio de ellas, un laberinto. ¿Qué es puede ser
+una base? Un pueblo, una ciudadela, un castillo o incluso un barco desde
+donde los jugadores salen a investigar el mundo y vivir aventuras
+mientras el resto del mundo siguen con sus vidas. Dibuja un mapa con
+estos elementos, añade unos pocos detalles más y quédate contento con
+esto. Ya irás añadiendo más según progresen las aventuras de los
+jugadores. Con el tiempo acabarás teninedo tu propio mundo único.</p>
+
+<p>También puedes jugar en un mundo de fantasía medieval que conozcas de
+una novela o una película. O que te inspires en ellos para crear tu
+propia versión.</p>
+
+<h1>
+<a id="monstruos" class="anchor" href="#monstruos" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Monstruos</h1>
+
+<p>Un monstruo es, de forma genérica, toda criatura que vive en un
+laberinto. Algunos son hostiles a los jugadores e intentarán matarlos,
+capturarlos, comerlos o hacerles algo mucho peor. Otros pueden ser
+indiferentes a los jugadores y solo reaccionarán si los jugadores
+interactúan con ellos. Incluso podrán encontrarse gente amiga, como los
+prisioneros que quieran recuperar la libertad.</p>
+
+<p>Hay un cuadro de monstruos en la página , que representa a algunos de
+los monstruos más comunes en los laberintos, ordenados por nivel. El
+máster puede, por supuesto, añadir nuevos monstruos a esta cuadro o
+inventarse los suyos propios. En ese caso intenta que tus monstruos no
+sea simplemente máquinas de matar. Añade habilidades divertidas o
+únicas, dales alguna historia, quizás alguna vulnerabilidad y algo que
+justifique que son como son.</p>
+
+<p>Cuando dirijas la partida sé lógico. Recuerda que es raro que un zombi
+tenga algún tesoro encima; que los animales nunca buscarán hacer
+prisioneros, sino convertilos en comida y que un cubo gelatinoso no va a
+negociar con nadie.</p>
+
+<p>Ten en cuenta también el nivel del laberinto, que la mayoría de tus
+monstruos sean de su mismo nivel. Pon algunos inferiores y, si quieres,
+un par superiores que sirvan de jefes o de objetivo final.</p>
+
+<p><img src="hut.png" alt="image"></p>
+
+<p>[p]</p>
+
+<p>lcccp8cm Criatura &amp; Nivel &amp; CA &amp; Daño &amp; Notas\
+Escarabajo de Fuego &amp; 1 &amp; 6 &amp; Deslumbra &amp; Impacto automático. Tirada de
+CON o incapaz de ver $ 1d6$ minutos\
+Murciélago Vampiro &amp; 1 &amp; 6 &amp; $ 1d4$ &amp; Salva CON el turno siguiente o
+Pierdes $ 1d6$ de vida extra.\
+Ciempiés gigante &amp; 1 &amp; 7 &amp; 0 &amp; Salva CON o quedas insconsciente hasta
+terminar el combate.\
+Demonio Manes &amp; 1 &amp; 7 &amp; $ 1d4$ &amp; Recibe mitad del daño de armas no
+mágicas.\
+Goblin verde &amp; 1 &amp; 6 &amp; Arma &amp; Solo $ 1d6$ vida\
+Goblin azul &amp; 1 &amp; 9 &amp; Arma &amp; Solo $ 1d6$ vida si son goblins verdaderos\
+Zombi &amp; 1 &amp; 9 &amp; $ 1d4$ &amp; Salva CON o enfermedad, zombi en $ 1d6$ días.\
+Esqueleto &amp; 2 &amp; 7 &amp; Arma &amp;\
+Goblin negro &amp; 2 &amp; 5 &amp; Arma &amp;\
+Hormiga gigante &amp; 2 &amp; 6 &amp; $ 1d6$ &amp; Veneno. Salva CON o sufre $ 2d6$ más
+de daño.\
+Ghoul &amp; 2 &amp; 7 &amp; $ 2d3$ &amp; Salva CON o Paralizado.\
+Arpía &amp; 3 &amp; 6 &amp; $ 2d3$ &amp; Vuela. Canto: Salva CAR o debes caminar a dónde
+te mande.\
+Hombre rata &amp; 3 &amp; 5 &amp; $ 2d4$ &amp; No pueden ser sorprendidos.\
+Sombra &amp; 3 &amp; 7 &amp; $ 1d4$ &amp; -1 a Fuerza, solo se pueden herir con armas
+mágicas\
+Cambiaformas &amp; 3 &amp; 6 &amp; $ 2d4$ &amp; Puede cambiar de forma a voluntad\
+Goblin brujo &amp; 3 &amp; 5 &amp; Arma &amp; Magia: Esclavitud, Fétido, 1 conjuro de
+mago\
+Fantasma &amp; 3 &amp; 7 &amp; Chupa 1 nivel &amp; Sólo puede herirse con armas mágicas\
+Orco &amp; 3 &amp; 4 &amp; Arma + 1 &amp;\
+Oso grizzly &amp; 4 &amp; 5 &amp; $d6$ &amp; Tres ataques por turno$^1$.\
+Gárgola &amp; 4 &amp; 4 &amp;$  d6$ &amp; Tres ataques por turno$^1$.\
+Cubo Gelatinoso &amp; 4 &amp; 2 &amp;$  d10$ &amp; Salva CON o paralizado. Inmune al
+frío y rayos.\
+Hombre Lobo &amp; 4 &amp; 5 &amp;$  d10$ &amp; Solo puede atacarse con armas de plata.\
+Owlbear &amp; 5 &amp; 4 &amp;$  d10$ &amp; Cuatro ataques por turno††.\
+Basilisco &amp; 6 &amp; 2 &amp;$  d8$ &amp; Si te mira a los ojos, salva CON o
+petrificado\
+Momia &amp; 6 &amp; 4 &amp; $ 2d6$ &amp; Las heridas solo se curan con magia. Inmune a
+las armas normales. Las armas mágicas solo le hacen la mitad de daño.\
+Demonio de Balor &amp; 9 &amp; 1 &amp;$  d12$ + 2 &amp; Ataque de Látigo$^2$. Salva DES
+o te acercará a sus llamas, $ 3d6$ de daño por fuego\
+Dragón &amp;11 &amp; -1 &amp; $ 1d8$ &amp; Aliento de Fuego: Alcanza a $ 1d4$+2
+objetivos a 20 metros del dragón ($ 3d8$ daño). Conoce $ 2d3$ conjuros.
+Vuela\</p>
+
+<p>3 Cuando falle un ataque pierde el resto de los ataques.</p>
+
+<p>4 Puede hacer un ataque normal y otro de látigo contra el mismo o
+distinto enemigo.</p>
+
+<h1>
+<a id="tesoros" class="anchor" href="#tesoros" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tesoros</h1>
+
+<p>Todos los laberintos y algunos de sus habitantes están cargados de
+tesoros, aunque la mayoría de las veces no es fácil saquearlos,
+—debiendo sortearse sortilegios, puertas secretas, candados, trampas
+mortales, acertijos imposibles y otros peligros. Sin embargo, para los
+triunfadores, las recompensas pueden ser magníficas e incluyen objetos
+mágicos.</p>
+
+<p>Los tesoros que contenga un laberinto quedan al criterio del máster. El
+máster decide qué tesoros hay, cuánto hay y dónde y cómo están
+escondidos. No obstante, el máster <em>puede</em> usar los cuadros de tesoros
+que reflejan, más o menos, lo que normalmente se suele hacer.</p>
+
+<h1>
+<a id="objetos-mágicos" class="anchor" href="#objetos-m%C3%A1gicos" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Objetos mágicos</h1>
+
+<p>Algunos objetos, como el anillo de Frodo, pueden estar malditos. Un
+objeto madilto no es otra cosa que un objeto con una maldición que
+afecta adversamente a los personajes. Sin embargo, los más interesantes
+son aquellos que ofrecen también un beneficio.</p>
+
+<p>No hay objetos malditos en los cuadros, sino que el máster debe dejarlos
+sabiamente en la aventura. Quizás advirtiendo antes de su existencia o
+solo dando pistas, alertando y amenazando con sus poderes.</p>
+
+<p>Ejemplo de objeto maldito aburrido: Espada -1. Esta espada da un -1 a la
+tirada de ataque, además se queda pegada a la mano del personaje.</p>
+
+<p>Ejemplo de objeto maldito interesante: La Armadura de la Sangre. Se
+trata de una armadura de placas siempre ensangrentada de clase de
+armadura -1 y que reduce el daño de todas las arma a la mitad. Sin
+embargo, provoca el odio de todas los monstruos haciendo que estos
+siempre ataquen a su portador.</p>
+
+<p>Las pociones vienen en pequeños frascos y no son identificables por los
+jugadores si no vienen etiquetados, —lo que casi nunca ocurre. La
+mayoría son beneficiosas pero muchas son venenos o suponen efectos
+perversos, como la esclavitud.</p>
+
+<p>La mayoría de los venenos simplemente quitan $ 1d6$ puntos de daño por
+nivel de la poción. Los efectos de los venenos pueden ser instantáneos o
+progresivos, avanzando poco a poco según se pierdan las Salvaciones de
+Constitución.</p>
+
+<p>Ejemplo: Poción de Esclavitud. Si el personaje no salva CON le aparece
+un punto azul en la piel. Este punto se extenderá en una hora a una
+extremidad, y, progresivamente hasta teñir todo el cuerpo en $ 3d4$
+horas. Cuando eso ocurra habrá caído bajo la maldición de la esclavitud.</p>
+
+<p>Ejemplo: Poción de Debilidad. Si el personaje no salva CON pierde $ 1d4$
+de CON y $ 1d4$ de Fuerza. Si quedara a 0 muere.</p>
+
+<p>El agua bendita es especial y puede usarse de modo creativo, siempre
+respetando su origen sagrado. En cualquier caso la decisión del máster
+sobre esto es definitiva. Sin embargo, a mí me gusta usarla para lo
+siguiente:</p>
+
+<ol>
+<li><p>Quitar algunas maldiciones</p></li>
+<li><p>Curar enfermedades causadas por demonios</p></li>
+<li><p>Convertir a una criatura. En este caso debe ser una criatura que ya
+quiera hacerse <em>buena</em>, aunque por naturaleza no lo sea, como un
+orco.</p></li>
+<li><p>Recuperar 1 punto de vida.</p></li>
+<li><p>Ácido contra los demonios. Para un demonio el agua bendita es como
+ácido, causándole 4d4 puntos de daño.</p></li>
+</ol>
+
+<p>Un frasco de agua bendita genera suficiente agua para un uso.</p>
+
+<p>Un anillo da a su portador efectos permanentes mientras ponga el anillo
+en el dedo anular de su mano preferida. Casi siempre otorga los efectos
+de un conjuro o una mejora en una habilidad.</p>
+
+<p>Para usar un anillo debe ponerse en el dedo anular de la mano preferida
+(derecha o izquierda). Cualquiera puede ponerse y usar un anillo.</p>
+
+<p>Los papiros, o pergaminos, son rollos con conjuros mágicos que se
+activan leyendo sus palabras en voz alta. Puede usarlos cualquiera, pero
+solo un mago —no un elfo, ni un paladín— puede entender su significado.
+Es decir, si no hay un mago los personajes tendrán que usar el papiro a
+ciegas.</p>
+
+<p>El pergamino es de un solo uso, y las letras del conjuro se borran en
+cuanto se han leído.</p>
+
+<p>Una varita contiene poderes conjuros que solo puede usar un mago o un
+elfo —no un paladín— y permite lanzar los conjuros que contenga, que
+suele ser $ 1d4$ por nivel de la varita. Una vez agotados la varita
+queda descargada.</p>
+
+<p>Muchas armas pueden ser mágicas. A veces no contienen beneficios
+especiales, pero el hecho de que sea mágica significa que puede usarse
+contra monstruos a los que no les afectan las armas normales, como los
+fantasmas.</p>
+
+<p>Los efectos más comunes es que añadan de +1 a +3 a la capacidad de
+ataque o que dañen de forma más grave a determinados monstruos. Como
+“Rebanorcos”, una daga que añade $ 3d6$ de daño cuando lucha contra
+orcos.</p>
+
+<p>Las armaduras pueden encantarse y, normalmente, tienen clases de
+armaduras muy bajas, incluso negativas, o tienen efectos especiales como
+añadir +1 de FUE a su portados, o les permitan nadar con ellas puestas.</p>
+
+<p>El máster puede crear sus objetos únicos que se salgan de estas reglas.
+No obstante, cuando salgan en un cuadro de tesoros, lo normal es que
+interprete que se trata de un objeto con los efectos de un anillo o una
+varita, pero de otra forma. Por ejemplo, la “Corona de Sabiduría” que
+añade +1 a la Sabiduría del que se la ponga.</p>
+
+<p>El máster puede inspirarse en películas, novelas, juegos o series de
+televisión para crear sus objetos o puede sacarlos de su imaginación.
+Pero debe cuidar de que no sean excesivamente poderosos o que, si lo
+son, estén malditos.</p>
+
+<p>Ejemplo de objeto único. Goblin chillón de piedra. Se trata de una
+estatuilla de piedra de 20 centímetros de alto que se pone en cualquier
+lugar que desee vigilarse. Se quita la venda al Goblin chillón y, a
+partir de entonces, cada vez que alguien pase delante el Goblin chillón
+gritará sin parar con un sonido que puede escucharse a un kilómetro o a
+10 con la habilidad de Susurros.</p>
+
+<p>[p]</p>
+
+<p>ccccccc Clase &amp; mc &amp; mp &amp; mo &amp; mP &amp; Piedras preciosas &amp;
+Magia\
+1 &amp; $ 4d6$\
+2 &amp; &amp; $ 2d8$+1\
+3 &amp; &amp; &amp; $ 1d10$+1\
+4 &amp; &amp; &amp; &amp; $ 1d8$\
+5 &amp; &amp; &amp; &amp; &amp; $ 1d6$\
+6 &amp; $ 3d20$ &amp; $ 1d20$ &amp; $ 1d20$ &amp; $ 1d4$ &amp; $ 1d4$ - $ 1d4$ &amp; †(2 -
+$ 1d8$)\
+7 &amp; &amp; $ 1d20$ &amp; $ 2d20$ &amp; $ 1d6$ &amp; $ 1d6$ - $ 1d4$ &amp; †(2 - $ 1d6$)\
+8 &amp; &amp; &amp; &amp; &amp; &amp; $ 1d4$ - 2 pergaminos\
+9 &amp; &amp; &amp; &amp; &amp; &amp; $ 1d4$ pociones\
+10 &amp; &amp; &amp; $ 2d4$ &amp; &amp; $ 4d4$\
+11 &amp; &amp; &amp; &amp; &amp; $ 1d3$\
+12 &amp; &amp; $ 1d2$ &amp; $ 1d4$-$ 1d4$\
+13 &amp; $ 1d6$ - $ 1d4$ &amp; $ 1d4$ - $ 1d4$\
+14 &amp; &amp; &amp; &amp; $ 2d4$ - $ 1d6$ &amp; $ 2d6$ &amp; †(1)\
+15 &amp; $ 2d4$ &amp; $ 3d20$ &amp; $ 3d20$ &amp; $ 2d4$ &amp; $ 2d20$&amp; †(3)\
+16 &amp; &amp; &amp; $ 3d4$ &amp; $ 2d4$x7 &amp; $ 4d20$ &amp; †(6)\</p>
+
+<p>Desde la Clase 10 las monedas encontradas se multiplican por 1000,
+excepto las de platino, que se multiplican por 100</p>
+
+<p>† tirar en el cuadro de Tesoros mágicos tantas veces como aparezca el
+número entre paréntesis</p>
+
+<p>Si el resultado de los dados da negativo, se entiende que es un cero.</p>
+
+<p>[p]</p>
+
+<p>lcccccccc $ 1d8$ &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp; 7 &amp; 8\
+Valor(mo) &amp; 10 &amp; 25 &amp; 50 &amp; 75 &amp; 100 &amp; 250 &amp; 500 &amp; 750 + $$ 2d20$x10$\</p>
+
+<p>[p]</p>
+
+<p>cccccccc 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp;7 &amp; 8\
+Pociones&amp; Anillos &amp; Pergaminos &amp; Varitas &amp; Única &amp; Armas &amp; Armas &amp;
+Armaduras\</p>
+
+<p>[p]</p>
+
+<p>lllll 1d8 &amp; Pociones &amp; Anillos &amp; Pergaminos &amp; Varitas\
+1 &amp; Dormir &amp; INT + 1 &amp; Encantar &amp; Proyectil mágico\
+2 &amp; Invisibilidad &amp; FUE + 1 &amp; Oscuridad &amp; Dormir\
+3 &amp; Levitar &amp; Invisibilidad &amp; Toc, toc &amp; Toc, toc\
+4 &amp; Curar Heridas &amp; Levitar &amp; Quitar magia &amp; Ilusión\
+5 &amp; Agua bendita &amp; CAR + 2 &amp; Bendecir &amp; Curar heridas\
+6 &amp; Veneno &amp; Detectar el mal &amp; Quitar maldición &amp; Fétido\
+7 &amp; Curar Enfermedad &amp; Encontar trampas &amp; Hablar con los muertos &amp;
+Quitar magia\
+8 &amp; Esclavizar &amp; DES + 1 &amp; Purificar &amp; Encantar\</p>
+
+<p><img src="kidsplay.png" alt="image"></p>
+
+<h1>
+<a id="diez-reglas-para-jugar-mejor" class="anchor" href="#diez-reglas-para-jugar-mejor" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Diez reglas para jugar mejor</h1>
+
+<ol>
+<li><p>Conoce las reglas.</p></li>
+<li><p>Acude a la fuerza cuando no se te ocurra nada mejor.</p></li>
+<li><p>Piensa como tu personaje, haz que parezca real.</p></li>
+<li><p>Confía en el máster.</p></li>
+<li><p>No confíes nunca en un goblin sonriente.</p></li>
+<li><p>Ayuda a tus compañeros.</p></li>
+<li><p>Usa la magia de forma creativa.</p></li>
+<li><p>Sé un héroe, valiente y honorable.</p></li>
+<li><p>Pero recuerda que hasta los héroes tienen que huir, a veces.</p></li>
+<li><p>Diviértete</p></li>
+</ol>
+
+<p>[^1]: Ver pág</p>
+        </section>
+
+        <footer>
+          Laberintos tenebrosos is maintained by <a href="https://github.com/wissol">wissol</a><br>
+          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
+    </div>
+  </body>
+</html>
